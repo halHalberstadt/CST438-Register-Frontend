@@ -94,6 +94,7 @@ class SchedList extends Component {
     } 
   }
 
+  
   // Add course
   addCourse = (course) => {
     const token = Cookies.get('XSRF-TOKEN');
